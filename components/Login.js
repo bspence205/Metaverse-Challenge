@@ -10,7 +10,7 @@ function Login() {
       <div className="flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4">
         {/* Logo */}
         <Image
-          className="object-cover rounded-full"
+          className="object-cover rounded-full hover:animate-spin"
           src="https://indigodergisi.com/wp-content/uploads/2021/11/web30.jpg"
           height={200}
           width={200}
