@@ -11,15 +11,16 @@ function Login() {
         {/* Logo */}
         <Image
           className="object-cover rounded-full"
-          src="https://links.papareact.com/3pi"
+          src="https://indigodergisi.com/wp-content/uploads/2021/11/web30.jpg"
           height={200}
           width={200}
           /* Login Button */
         />
         <button
           onClick={authenticate}
-          className="bg-yellow-500 rounded-1g p-5 font-bold 
-        animate-pulse rounded-lg"
+          className="bg-blue-500 rounded-1g p-5 font-bold 
+        animate-pulse rounded-lg 
+        text-white"
         >
           Login to the Metateverse
         </button>
