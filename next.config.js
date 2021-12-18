@@ -4,6 +4,8 @@ module.exports = {
       "avatars.dicebear.com",
       "links.papareact.com",
       "indigodergisi.com",
+      "encrypted-tbn0.gstatic.com",
+      "nkn.org"
     ],
   },
 };
