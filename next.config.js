@@ -5,7 +5,7 @@ module.exports = {
       "links.papareact.com",
       "indigodergisi.com",
       "encrypted-tbn0.gstatic.com",
-      "nkn.org"
+      "images.unsplash.com"
     ],
   },
 };

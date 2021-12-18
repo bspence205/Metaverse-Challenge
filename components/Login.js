@@ -27,7 +27,7 @@ function Login() {
 
       <div className="w-full h-screen">
         <Image
-          src="https://nkn.org/wp-content/uploads/2020/03/blog-web-3-examples-1.jpg"
+          src="https://images.unsplash.com/photo-1504275107627-0c2ba7a43dba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
           layout="fill"
           objectFit="cover"
         />
