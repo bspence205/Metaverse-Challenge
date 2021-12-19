@@ -19,7 +19,7 @@ function ChangeUsername() {
       <button
         disabled={isUserUpdating}
         onClick={setUsername}
-        className="hover:text-white "
+        className="hover:text-white text-blue-400"
       >
         Change your Username
       </button>
