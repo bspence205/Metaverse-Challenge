@@ -54,7 +54,7 @@ function SendMessages({ endOfMessagesRef }) {
       <button
         type="submit"
         onClick={sendMessage}
-        className="font-bold text-pink-500"
+        className="font-bold text-white"
       >
         Send
       </button>
