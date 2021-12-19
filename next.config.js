@@ -5,7 +5,9 @@ module.exports = {
       "links.papareact.com",
       "indigodergisi.com",
       "encrypted-tbn0.gstatic.com",
-      "images.unsplash.com"
+      "images.unsplash.com",
+      "wallpaperaccess.com",
+      "lh3.googleusercontent.com",
     ],
   },
 };

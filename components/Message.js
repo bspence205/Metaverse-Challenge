@@ -20,8 +20,8 @@ function Message({ message }) {
       <div
         className={`flex space-x-4 p-3 rounded-lg ${
           isUserMessage
-            ? "rounded-br-none bg-pink-200"
-            : "rounded-bl-none bg-blue-400"
+            ? "rounded-br-none bg-blue-200"
+            : "rounded-bl-none bg-pink-400"
         }
         }`}
       >
@@ -30,7 +30,7 @@ function Message({ message }) {
 
       {/* Timeago Stamp */}
       <TimeAgo
-        className={`text-[10px] italic text-gray-400 ${
+        className={`text-[10px] italic text-white ${
           isUserMessage && "order-first pr-1"
         }`}
         datetime={message.createdAt}
@@ -38,7 +38,7 @@ function Message({ message }) {
 
       <p
         className={`absolute -bottom-5 text-xs ${
-          isUserMessage ? "text-pink-300" : "text-blue-500"
+          isUserMessage ? "text-white" : "text-pink-500"
         }`}
       >
         {message.get("username")}

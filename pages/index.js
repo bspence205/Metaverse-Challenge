@@ -10,7 +10,7 @@ export default function Home() {
   if (!isAuthenticated) return <Login />;
   return (
     <div className="h-screen overflow-y-scroll bg-gradient-to-b 
-    from-black to-fuchsia-900 overflow-hidden">
+    from-black to-blue-900 overflow-hidden">
       <Head>
         <title>MetaVerse Challenge</title>
         <link rel="icon" href="/favicon.ico" />
